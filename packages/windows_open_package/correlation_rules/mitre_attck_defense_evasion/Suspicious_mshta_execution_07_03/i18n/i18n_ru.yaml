@@ -1,0 +1,4 @@
+Description: 'Подозрительная команда MSHTA.EXE'
+EventDescriptions:
+  - LocalizationId: 'corrname_Suspicious_mshta_execution_07_03'
+    EventDescription: 'Процесс {object.process.name} выполнил подозрительный метод {datafiled20} на узле {event_src.host}'
