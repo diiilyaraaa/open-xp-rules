@@ -1,0 +1,4 @@
+Description: 'Подозрительная активность, связанная с изменениями ключа реестра $MACHINE.ACC процессом lsass.exe'
+EventDescriptions:
+  - LocalizationId: 'corrname_Suspicious_Modify_Registry_07_03'
+    EventDescription: 'Процесс {subject.process.name} создает и изменяет {object} на узле {event_src.hostname}'

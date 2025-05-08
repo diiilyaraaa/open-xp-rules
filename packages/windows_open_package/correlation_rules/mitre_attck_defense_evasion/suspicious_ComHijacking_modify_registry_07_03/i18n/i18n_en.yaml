@@ -1,0 +1,4 @@
+Description: 'One of the registry keys has been changed, which can be used to achieve COM object substitution.'
+EventDescriptions:
+  - LocalizationId: 'corrname_suspicious_ComHijacking_modify_registry_07_03'
+    EventDescription: 'The registry key value {object.fullpath} has been changed to {object.new_value} on the {event_src.host} node'

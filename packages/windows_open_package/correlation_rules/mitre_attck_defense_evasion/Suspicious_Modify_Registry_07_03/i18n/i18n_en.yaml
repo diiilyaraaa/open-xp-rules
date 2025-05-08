@@ -1,0 +1,4 @@
+Description: 'Suspicious activity related to changes to the $MACHINE registry key by lsass.exe'
+EventDescriptions:
+  - LocalizationId: 'corrname_Suspicious_Modify_Registry_07_03'
+    EventDescription: 'Process {subject.process.name} creates and modifies {object} on the {event_src.hostname} node'

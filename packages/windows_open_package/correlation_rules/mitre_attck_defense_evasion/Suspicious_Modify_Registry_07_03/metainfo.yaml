@@ -1,0 +1,22 @@
+ContentAutoName: Suspicious_Modify_Registry_07_03
+ExpertContext:
+  Created: 08.05.2025
+  Updated: 08.05.2025
+  KnowledgeHolders:
+    - '07_03'
+  Usecases: []
+  Falsepositives: []
+  References: []
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Sysmon
+      EventID: []
+ObjectId: SEC-CR-943740769
+EventDescriptions:
+  - Criteria: correlation_name = "Suspicious_Modify_Registry_07_03"
+    LocalizationId: corrname_Suspicious_Modify_Registry_07_03
+ContentRelations:
+  Implements:
+    ATTACK:
+      defense-evasion:
+        - T1112

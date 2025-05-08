@@ -1,0 +1,4 @@
+Description: 'Injecting code into the TeamViewer process using the Frida tool'
+EventDescriptions:
+  - LocalizationId: 'corrname_Suspicious_TeamViewer_Injection_By_Frida_07_03'
+    EventDescription: 'Process {object.process.name} injected code into the process {object.process.name} on the {event_src.host} node'

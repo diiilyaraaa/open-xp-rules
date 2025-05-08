@@ -1,0 +1,22 @@
+ContentAutoName: suspicious_ComHijacking_modify_registry_07_03
+ExpertContext:
+  Created: 08.05.2025
+  Updated: 08.05.2025
+  KnowledgeHolders:
+    - '07_03'
+  Usecases: []
+  Falsepositives: []
+  References: []
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Sysmon
+      EventID: []
+ObjectId: SEC-CR-330471086
+EventDescriptions:
+  - Criteria: correlation_name = "suspicious_ComHijacking_modify_registry_07_03"
+    LocalizationId: corrname_suspicious_ComHijacking_modify_registry_07_03
+ContentRelations:
+  Implements:
+    ATTACK:
+      defense-evasion:
+        - T1112

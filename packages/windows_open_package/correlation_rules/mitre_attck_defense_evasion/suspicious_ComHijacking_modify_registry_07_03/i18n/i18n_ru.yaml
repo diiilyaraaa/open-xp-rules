@@ -1,0 +1,4 @@
+Description: 'Изменен один из ключей реестра, через которые можно достичь подмены COM-объекта.'
+EventDescriptions:
+  - LocalizationId: 'corrname_suspicious_ComHijacking_modify_registry_07_03'
+    EventDescription: 'Значение ключ реестра {object.fullpath} имзенено на {object.new_value} на узле {event_src.host}'

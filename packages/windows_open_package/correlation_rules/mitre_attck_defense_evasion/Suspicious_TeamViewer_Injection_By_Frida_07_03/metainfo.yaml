@@ -1,0 +1,22 @@
+ContentAutoName: Suspicious_TeamViewer_Injection_By_Frida_07_03
+ExpertContext:
+  Created: 08.05.2025
+  Updated: 08.05.2025
+  KnowledgeHolders:
+    - '07_03'
+  Usecases: []
+  Falsepositives: []
+  References: []
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Sysmon
+      EventID: []
+ObjectId: SEC-CR-852519496
+EventDescriptions:
+  - Criteria: correlation_name = "Suspicious_TeamViewer_Injection_By_Frida_07_03"
+    LocalizationId: corrname_Suspicious_TeamViewer_Injection_By_Frida_07_03
+ContentRelations:
+  Implements:
+    ATTACK:
+      defense-evasion:
+        - T1055

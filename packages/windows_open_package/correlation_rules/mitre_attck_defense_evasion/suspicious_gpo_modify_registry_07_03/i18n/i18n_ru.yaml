@@ -1,0 +1,4 @@
+Description: 'Подозрительное изменение пути до файла групповой политики в реестре'
+EventDescriptions:
+  - LocalizationId: 'corrname_suspicious_gpo_modify_registry_07_03'
+    EventDescription: 'Процесс {subject.process.name} изменил путь до файла групповой политики значение в {object.path}'
