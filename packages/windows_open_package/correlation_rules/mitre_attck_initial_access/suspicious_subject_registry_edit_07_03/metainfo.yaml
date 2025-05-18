@@ -1,0 +1,13 @@
+ContentAutoName: suspicious_subject_registry_edit_07_03
+ExpertContext:
+  Created: 16.05.2025
+  Updated: 16.05.2025
+  KnowledgeHolders:
+    - '07_03'
+  Usecases: []
+  Falsepositives: []
+  References: []
+  Improvements: []
+EventDescriptions:
+  - Criteria: correlation_name = "suspicious_subject_registry_edit_07_03"
+    LocalizationId: corrname_suspicious_subject_registry_edit_07_03

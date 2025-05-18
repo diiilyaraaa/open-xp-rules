@@ -1,0 +1,22 @@
+ContentAutoName: suspicious_path_to_service_07_03
+ExpertContext:
+  Created: 15.05.2025
+  Updated: 16.05.2025
+  KnowledgeHolders:
+    - '07_03'
+  Usecases: []
+  Falsepositives: []
+  References: []
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Sysmon
+      EventID: []
+ObjectId: SEC-CR-367735934
+EventDescriptions:
+  - Criteria: correlation_name = "suspicious_path_to_service_07_03"
+    LocalizationId: corrname_suspicious_path_to_service_07_03
+ContentRelations:
+  Implements:
+    ATTACK:
+      defense-evasion:
+        - T1574.002

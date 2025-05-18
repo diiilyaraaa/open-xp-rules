@@ -1,0 +1,4 @@
+Description: 'Suspicious change in the path to the executable file of the service'
+EventDescriptions:
+  - LocalizationId: 'corrname_suspicious_path_to_service_07_03'
+    EventDescription: 'The process {subject.process.name} performed a suspicious change to the executable file path in the registry branch key {object.fullpath} on the host {event_src.hostname}'

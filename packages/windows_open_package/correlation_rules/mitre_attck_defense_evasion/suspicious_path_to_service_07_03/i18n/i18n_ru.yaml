@@ -1,0 +1,4 @@
+Description: 'Подозрительное изменение пути до исполняемого файла службы'
+EventDescriptions:
+  - LocalizationId: 'corrname_suspicious_path_to_service_07_03'
+    EventDescription: 'Процесс {subject.process.name} выполнил подозрительное изменение пути до исполняемого файла в ключе ветки реестра {object.fullpath} на хосте {event_src.hostname}'
